@@ -21,4 +21,8 @@
     [DKAudioTool playAudioWithFileName:@"buyao.wav"];
 }
 
+- (void)didReceiveMemoryWarning{
+    [DKAudioTool audioServicesDisposeWithFileName:@"buyao.wav"];
+}
+
 @end

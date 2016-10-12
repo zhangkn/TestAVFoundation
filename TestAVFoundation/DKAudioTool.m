@@ -52,4 +52,19 @@ static NSMutableDictionary *_inSystemSoundIDs;
     return inSystemSoundID;
 }
 
++(void)audioServicesDisposeWithFileName:(NSString *)fileName{
+    if (fileName == nil) {
+        return;
+    }
+    SystemSoundID inSystemSoundID = [_inSystemSoundIDs[fileName] unsignedIntValue];
+    if (!inSystemSoundID ) {
+        return ;
+    }
+    AudioServicesDisposeSystemSoundID(inSystemSoundID);
+    //移除soundID
+    [_inSystemSoundIDs removeObjectForKey:fileName];
+}
+
+
+
 @end
