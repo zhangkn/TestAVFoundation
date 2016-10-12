@@ -13,6 +13,27 @@
 		E1700CEE1DADE72C007015D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1700CEC1DADE72C007015D8 /* Main.storyboard */; };
 		E1700CF01DADE72C007015D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1700CEF1DADE72C007015D8 /* Assets.xcassets */; };
 		E1700CF31DADE72C007015D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1700CF11DADE72C007015D8 /* LaunchScreen.storyboard */; };
+		E1700D101DADE864007015D8 /* buyao.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700CFB1DADE864007015D8 /* buyao.aac */; };
+		E1700D111DADE864007015D8 /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700CFC1DADE864007015D8 /* buyao.wav */; };
+		E1700D121DADE864007015D8 /* lose.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700CFD1DADE864007015D8 /* lose.aac */; };
+		E1700D131DADE864007015D8 /* m_03.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700CFE1DADE864007015D8 /* m_03.wav */; };
+		E1700D141DADE864007015D8 /* m_04.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700CFF1DADE864007015D8 /* m_04.wav */; };
+		E1700D151DADE864007015D8 /* m_05.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D001DADE864007015D8 /* m_05.wav */; };
+		E1700D161DADE864007015D8 /* m_06.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D011DADE864007015D8 /* m_06.wav */; };
+		E1700D171DADE864007015D8 /* m_07.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D021DADE864007015D8 /* m_07.wav */; };
+		E1700D181DADE864007015D8 /* m_08.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D031DADE864007015D8 /* m_08.wav */; };
+		E1700D191DADE864007015D8 /* m_09.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D041DADE864007015D8 /* m_09.wav */; };
+		E1700D1A1DADE864007015D8 /* m_10.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D051DADE864007015D8 /* m_10.wav */; };
+		E1700D1B1DADE864007015D8 /* m_11.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D061DADE864007015D8 /* m_11.wav */; };
+		E1700D1C1DADE864007015D8 /* m_12.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D071DADE864007015D8 /* m_12.wav */; };
+		E1700D1D1DADE864007015D8 /* m_13.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D081DADE864007015D8 /* m_13.wav */; };
+		E1700D1E1DADE864007015D8 /* m_14.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D091DADE864007015D8 /* m_14.wav */; };
+		E1700D1F1DADE864007015D8 /* m_15.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0A1DADE864007015D8 /* m_15.wav */; };
+		E1700D201DADE864007015D8 /* m_16.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0B1DADE864007015D8 /* m_16.wav */; };
+		E1700D211DADE864007015D8 /* m_17.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0C1DADE864007015D8 /* m_17.wav */; };
+		E1700D221DADE864007015D8 /* normal.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0D1DADE864007015D8 /* normal.aac */; };
+		E1700D231DADE864007015D8 /* sendcard.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0E1DADE864007015D8 /* sendcard.aac */; };
+		E1700D241DADE864007015D8 /* win.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0F1DADE864007015D8 /* win.aac */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +47,27 @@
 		E1700CEF1DADE72C007015D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1700CF21DADE72C007015D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1700CF41DADE72C007015D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1700CFB1DADE864007015D8 /* buyao.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = buyao.aac; sourceTree = "<group>"; };
+		E1700CFC1DADE864007015D8 /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		E1700CFD1DADE864007015D8 /* lose.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = lose.aac; sourceTree = "<group>"; };
+		E1700CFE1DADE864007015D8 /* m_03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_03.wav; sourceTree = "<group>"; };
+		E1700CFF1DADE864007015D8 /* m_04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_04.wav; sourceTree = "<group>"; };
+		E1700D001DADE864007015D8 /* m_05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_05.wav; sourceTree = "<group>"; };
+		E1700D011DADE864007015D8 /* m_06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_06.wav; sourceTree = "<group>"; };
+		E1700D021DADE864007015D8 /* m_07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_07.wav; sourceTree = "<group>"; };
+		E1700D031DADE864007015D8 /* m_08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_08.wav; sourceTree = "<group>"; };
+		E1700D041DADE864007015D8 /* m_09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_09.wav; sourceTree = "<group>"; };
+		E1700D051DADE864007015D8 /* m_10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_10.wav; sourceTree = "<group>"; };
+		E1700D061DADE864007015D8 /* m_11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_11.wav; sourceTree = "<group>"; };
+		E1700D071DADE864007015D8 /* m_12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_12.wav; sourceTree = "<group>"; };
+		E1700D081DADE864007015D8 /* m_13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_13.wav; sourceTree = "<group>"; };
+		E1700D091DADE864007015D8 /* m_14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_14.wav; sourceTree = "<group>"; };
+		E1700D0A1DADE864007015D8 /* m_15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_15.wav; sourceTree = "<group>"; };
+		E1700D0B1DADE864007015D8 /* m_16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_16.wav; sourceTree = "<group>"; };
+		E1700D0C1DADE864007015D8 /* m_17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_17.wav; sourceTree = "<group>"; };
+		E1700D0D1DADE864007015D8 /* normal.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.aac; sourceTree = "<group>"; };
+		E1700D0E1DADE864007015D8 /* sendcard.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendcard.aac; sourceTree = "<group>"; };
+		E1700D0F1DADE864007015D8 /* win.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = win.aac; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +116,38 @@
 		E1700CE31DADE72C007015D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1700CFA1DADE864007015D8 /* 斗地主音频 */,
 				E1700CE41DADE72C007015D8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1700CFA1DADE864007015D8 /* 斗地主音频 */ = {
+			isa = PBXGroup;
+			children = (
+				E1700CFB1DADE864007015D8 /* buyao.aac */,
+				E1700CFC1DADE864007015D8 /* buyao.wav */,
+				E1700CFD1DADE864007015D8 /* lose.aac */,
+				E1700CFE1DADE864007015D8 /* m_03.wav */,
+				E1700CFF1DADE864007015D8 /* m_04.wav */,
+				E1700D001DADE864007015D8 /* m_05.wav */,
+				E1700D011DADE864007015D8 /* m_06.wav */,
+				E1700D021DADE864007015D8 /* m_07.wav */,
+				E1700D031DADE864007015D8 /* m_08.wav */,
+				E1700D041DADE864007015D8 /* m_09.wav */,
+				E1700D051DADE864007015D8 /* m_10.wav */,
+				E1700D061DADE864007015D8 /* m_11.wav */,
+				E1700D071DADE864007015D8 /* m_12.wav */,
+				E1700D081DADE864007015D8 /* m_13.wav */,
+				E1700D091DADE864007015D8 /* m_14.wav */,
+				E1700D0A1DADE864007015D8 /* m_15.wav */,
+				E1700D0B1DADE864007015D8 /* m_16.wav */,
+				E1700D0C1DADE864007015D8 /* m_17.wav */,
+				E1700D0D1DADE864007015D8 /* normal.aac */,
+				E1700D0E1DADE864007015D8 /* sendcard.aac */,
+				E1700D0F1DADE864007015D8 /* win.aac */,
+			);
+			path = "斗地主音频";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +209,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1700D241DADE864007015D8 /* win.aac in Resources */,
+				E1700D1D1DADE864007015D8 /* m_13.wav in Resources */,
+				E1700D1B1DADE864007015D8 /* m_11.wav in Resources */,
+				E1700D181DADE864007015D8 /* m_08.wav in Resources */,
+				E1700D211DADE864007015D8 /* m_17.wav in Resources */,
+				E1700D161DADE864007015D8 /* m_06.wav in Resources */,
+				E1700D231DADE864007015D8 /* sendcard.aac in Resources */,
+				E1700D1C1DADE864007015D8 /* m_12.wav in Resources */,
+				E1700D101DADE864007015D8 /* buyao.aac in Resources */,
+				E1700D1A1DADE864007015D8 /* m_10.wav in Resources */,
 				E1700CF31DADE72C007015D8 /* LaunchScreen.storyboard in Resources */,
+				E1700D131DADE864007015D8 /* m_03.wav in Resources */,
+				E1700D121DADE864007015D8 /* lose.aac in Resources */,
+				E1700D1F1DADE864007015D8 /* m_15.wav in Resources */,
+				E1700D221DADE864007015D8 /* normal.aac in Resources */,
+				E1700D141DADE864007015D8 /* m_04.wav in Resources */,
+				E1700D111DADE864007015D8 /* buyao.wav in Resources */,
+				E1700D171DADE864007015D8 /* m_07.wav in Resources */,
+				E1700D151DADE864007015D8 /* m_05.wav in Resources */,
+				E1700D201DADE864007015D8 /* m_16.wav in Resources */,
 				E1700CF01DADE72C007015D8 /* Assets.xcassets in Resources */,
+				E1700D1E1DADE864007015D8 /* m_14.wav in Resources */,
 				E1700CEE1DADE72C007015D8 /* Main.storyboard in Resources */,
+				E1700D191DADE864007015D8 /* m_09.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
