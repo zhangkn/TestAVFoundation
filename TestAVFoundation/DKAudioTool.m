@@ -35,6 +35,7 @@ static NSMutableDictionary *_inSystemSoundIDs;
     AudioServicesPlaySystemSound(systemSoundID);
 }
 
+/** 使用全局的静态变量存储ID，保证只加载一次资源*/
 + (SystemSoundID)systemSoundIDWithFileName:(NSString *)fileName{
     SystemSoundID inSystemSoundID = [_inSystemSoundIDs[fileName] unsignedIntValue];
     if (inSystemSoundID ) {
