@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
+#import "DKAudioTool.h"
 
 @interface ViewController ()
 
@@ -17,12 +18,7 @@
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    CFURLRef inFileURL = (__bridge CFURLRef)([[NSBundle mainBundle] URLForResource:@"buyao.aac" withExtension:nil]);
-    SystemSoundID inSystemSoundID =0;
-    //加载音效
-    AudioServicesCreateSystemSoundID( inFileURL , &inSystemSoundID);
-    //播放音效（本地）
-    AudioServicesPlaySystemSound(inSystemSoundID);
+    [DKAudioTool playAudioWithFileName:@"buyao.wav"];
 }
 
 @end

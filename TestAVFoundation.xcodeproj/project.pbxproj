@@ -34,6 +34,7 @@
 		E1700D221DADE864007015D8 /* normal.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0D1DADE864007015D8 /* normal.aac */; };
 		E1700D231DADE864007015D8 /* sendcard.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0E1DADE864007015D8 /* sendcard.aac */; };
 		E1700D241DADE864007015D8 /* win.aac in Resources */ = {isa = PBXBuildFile; fileRef = E1700D0F1DADE864007015D8 /* win.aac */; };
+		E1700D2A1DAE0EC2007015D8 /* DKAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1700D291DAE0EC2007015D8 /* DKAudioTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		E1700D0D1DADE864007015D8 /* normal.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.aac; sourceTree = "<group>"; };
 		E1700D0E1DADE864007015D8 /* sendcard.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendcard.aac; sourceTree = "<group>"; };
 		E1700D0F1DADE864007015D8 /* win.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = win.aac; sourceTree = "<group>"; };
+		E1700D281DAE0EC2007015D8 /* DKAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAudioTool.h; sourceTree = "<group>"; };
+		E1700D291DAE0EC2007015D8 /* DKAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAudioTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +103,9 @@
 		E1700CE21DADE72C007015D8 /* TestAVFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				E1700CE61DADE72C007015D8 /* AppDelegate.h */,
-				E1700CE71DADE72C007015D8 /* AppDelegate.m */,
-				E1700CE91DADE72C007015D8 /* ViewController.h */,
-				E1700CEA1DADE72C007015D8 /* ViewController.m */,
-				E1700CEC1DADE72C007015D8 /* Main.storyboard */,
-				E1700CEF1DADE72C007015D8 /* Assets.xcassets */,
-				E1700CF11DADE72C007015D8 /* LaunchScreen.storyboard */,
-				E1700CF41DADE72C007015D8 /* Info.plist */,
+				E1700D271DAE0EA6007015D8 /* Tool */,
+				E1700D261DAE0E9E007015D8 /* Other */,
+				E1700D251DAE0E93007015D8 /* Controller */,
 				E1700CE31DADE72C007015D8 /* Supporting Files */,
 			);
 			path = TestAVFoundation;
@@ -116,6 +114,10 @@
 		E1700CE31DADE72C007015D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1700CEC1DADE72C007015D8 /* Main.storyboard */,
+				E1700CEF1DADE72C007015D8 /* Assets.xcassets */,
+				E1700CF11DADE72C007015D8 /* LaunchScreen.storyboard */,
+				E1700CF41DADE72C007015D8 /* Info.plist */,
 				E1700CFA1DADE864007015D8 /* 斗地主音频 */,
 				E1700CE41DADE72C007015D8 /* main.m */,
 			);
@@ -148,6 +150,33 @@
 				E1700D0F1DADE864007015D8 /* win.aac */,
 			);
 			path = "斗地主音频";
+			sourceTree = "<group>";
+		};
+		E1700D251DAE0E93007015D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1700CE91DADE72C007015D8 /* ViewController.h */,
+				E1700CEA1DADE72C007015D8 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E1700D261DAE0E9E007015D8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E1700CE61DADE72C007015D8 /* AppDelegate.h */,
+				E1700CE71DADE72C007015D8 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E1700D271DAE0EA6007015D8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E1700D281DAE0EC2007015D8 /* DKAudioTool.h */,
+				E1700D291DAE0EC2007015D8 /* DKAudioTool.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +275,7 @@
 				E1700CEB1DADE72C007015D8 /* ViewController.m in Sources */,
 				E1700CE81DADE72C007015D8 /* AppDelegate.m in Sources */,
 				E1700CE51DADE72C007015D8 /* main.m in Sources */,
+				E1700D2A1DAE0EC2007015D8 /* DKAudioTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
